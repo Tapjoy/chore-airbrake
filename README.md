@@ -1,6 +1,6 @@
-# Chore::NewRelic
+# Chore::Airbrake
 
-TODO: Write a gem description
+Airbrake integration support for Chore. Use this if reporting errors via Airbrake is part of your applications workflow.
 
 ## Installation
 
@@ -18,7 +18,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Require 'chore/airbrake' when you're configuring chore for use in your application
 
 ## Contributing
 
