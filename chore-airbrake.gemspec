@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.version       = Chore::Airbrake::VERSION
   spec.authors       = ["Tapjoy"]
   spec.email         = ["eng-group-arch@tapjoy.com"]
-  spec.summary       = "Tapjoy specific chore plugins"
+  spec.summary       = "Airbrake integration for chore"
   spec.description   = "A repository for Airbrake integrations"
   spec.homepage      = ""
   spec.license       = "MIT"
