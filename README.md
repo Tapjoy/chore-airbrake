@@ -2,6 +2,10 @@
 
 Airbrake integration support for Chore. Use this if reporting errors via Airbrake is part of your applications workflow.
 
+Configure [Airbrake](http://airbrake.io) as suggested for your application.
+
+That's it! The plugin registers itself with [Chore's hooks](https://github.com/tapjoy/chore#hooks) to report errors as they occur both in Chore itself and with your jobs.
+
 ## Installation
 
 Add this line to your application's Gemfile:
@@ -19,11 +23,3 @@ Or install it yourself as:
 ## Usage
 
 Require 'chore/airbrake' when you're configuring chore for use in your application
-
-## Contributing
-
-1. Fork it ( http://github.com/<my-github-username>/chore-airbrake/fork )
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
