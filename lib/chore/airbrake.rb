@@ -8,7 +8,7 @@ module Chore
   end
 
   class Airbrake #:nodoc:
-    def self.register_airbrake_handlers
+    def self.register_airbrake_handlers!
       # Require this gem and call this function to enable airbraking all exceptions thrown from jobs
       # use Chore.config.airbrake to set airbrake options for sending notifications
 

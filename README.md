@@ -22,4 +22,8 @@ Or install it yourself as:
 
 ## Usage
 
-Require 'chore/airbrake' when you're configuring chore for use in your application
+Require 'chore/airbrake' when you're configuring chore for use in your application, and call the following:
+
+```ruby
+  Chore::Airbrake.register_airbrake_handlers!
+```
