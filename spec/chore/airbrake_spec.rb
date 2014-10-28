@@ -20,9 +20,11 @@ describe Chore do
       # loading in before all
       Chore.respond_to?(:airbrake).should == false
       Chore.hooks_for(:on_failure).should be_empty
+      
       # hook it up
       require 'chore/airbrake'
-      
+      Chore::Airbrake.register_airbrake_handlers!
+
       Chore.respond_to?(:airbrake).should == true
       Chore.hooks_for(:on_failure).should_not be_empty
     end
